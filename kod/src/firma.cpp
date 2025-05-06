@@ -29,6 +29,10 @@ void Firma::wez_kredyt(const Kredyt& kred){
     kredyty.push_back(kred);
 }
 
+int Firma::stan_kredytow(){
+    return kredyty.size();
+}
+
 
 void Firma::drukuj_pracownikow(){
 

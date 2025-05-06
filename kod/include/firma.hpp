@@ -30,6 +30,7 @@ class Firma{
     double rozlicz_miesiac(); 
     double jaka_wartosc_spolki();
     void wez_kredyt(const Kredyt& kred);
+    int stan_kredytow();
     
 };
 
